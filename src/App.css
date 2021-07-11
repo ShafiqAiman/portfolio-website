@@ -2,7 +2,9 @@
 
 :root{
   --primary-white: #fff;
-  --primary-dark:rgba(255, 255, 255, 0)
+  --primary-dark:rgba(255, 255, 255, 0);
+  --primary-red:#ef4035;
+  --primary-hover-red:#f33501;
 }
 
 body{
@@ -10,8 +12,10 @@ body{
 }
 
 /* ****************************  Navbar.js ********************************** */
-.logo{
-  width: 40px;
+
+.navbar-name{
+  color: white;
+  margin-left: 10px;
 }
 
 nav a.nav-link{
@@ -21,14 +25,93 @@ nav a.nav-link{
 
 .navbar-nav > li > a{
   color: white !important;
-  margin-right: 50px;
-  border-top: 0.1875rem solid var(--primary-dark);
+  margin-right: 30px;
+  border-bottom: 0.1875rem solid var(--primary-dark);
 }
 
 .navbar-nav > li > a.active, .navbar-nav>li> a.active:focus{
-  border-top: 0.1875rem solid orange;
+  border-top: 0.1875rem solid #fbd864;
 }
 
 .navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid orange;
+  border-bottom: 0.1875rem solid #fbd864;
+}
+
+
+/* ****************************  Header.js ********************************** */
+
+
+
+.header-wrapper{
+  padding-top: 30%;
+  position: relative;
+  background: url("./assets/Background-Photo.jpg") no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: 100vh;
+}
+
+.ProfilePhoto{
+  width: 200px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.intro{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.main-info{
+  color: white;
+  /* position: absolute;
+  display: flex;
+  flex-direction: column; */
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 60%;
+}
+
+.typed-text{
+  background-color: #fbd864;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.btn-main-offer{
+  border: 1px solid var(--primary-white);
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+}
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+/* ****************************  Projects.js ********************************** */
+.AboutMe{
+  background-color: white;
+  height: 100vh;
+  padding-top: 10%;
+  text-align: center;
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* ****************************  Projects.js ********************************** */
+
+.projects{
+  padding-top: 10%;
+  background-color: #fbd864;
+  height: 100vh;
+  text-align: center;
 }
