@@ -20,13 +20,16 @@ const Navbar = () => {
                             <a className="nav-link" href="#aboutme">About Me</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="#projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Working Experience</a>
+                            <a className="nav-link" href="#workingexperience">Working Experience</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Achievements</a>
+                            <a className="nav-link" href="#achievements">Achievements</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contacts</a>
