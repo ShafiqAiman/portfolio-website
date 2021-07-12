@@ -1,10 +1,13 @@
 
 import './App.css';
 import Particles from "react-particles-js"
-import Navbar from './components/Navbar';
-import Header from './components/Header';
+import Navbar from './components/Navbar'
+import Header from './components/Header'
 import AboutMe from './components/AboutMe'
+import Skills from './components/Skills'
 import Projects from './components/Projects'
+import WorkingExperience from './components/WorkingExperience'
+import Achievements from './components/Achievements'
 
 
 function App() {
@@ -27,8 +30,10 @@ function App() {
     />
     <Header />
     <AboutMe />
+    <Skills />
     <Projects />
-    
+    <WorkingExperience />
+    <Achievements />
     </>
   );
 }
