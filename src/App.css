@@ -130,9 +130,13 @@ nav a.nav-link{
 }
 
 .planguages{
-  max-width: 180px;
-  max-height: 150px;
+  max-width: 150px;
+  max-height: 100px;
   margin: 20px;
+}
+
+.skillsections{
+  font-weight: bold;
 }
 
 
@@ -167,6 +171,8 @@ nav a.nav-link{
   background-color: black;
   color: white;
   width: 100px;
+  height: 40px;
+  border-radius: 7px;
 }
 
 .projectthumbnail{
@@ -500,6 +506,10 @@ header h1{
     text-align: left;
   }
 }
+
+/* .company-logo-background{
+  
+} */
 
 .companylogo{
   height: 50px;
