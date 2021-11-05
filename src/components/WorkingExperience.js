@@ -22,7 +22,7 @@ const WorkingExperience = () => {
                         <div className="desc"><span className="position">Systems Engineer</span><br />
                         I am responsible to do programming and designing software applications. I also need to prepare user requirements, 
                         technical specifcations, and test documents. Next, I need to do perform Functional Testing, System Testing, and deployment of product within
-                        a scheduled timeframe. I also need to diagnose issues, and perform bug fixes or software configuration-related issues. Laslty, I have to ensure 
+                        a scheduled timeframe. I also need to diagnose issues, and perform bug fixes or software configuration-related issues. Lastly, I have to ensure 
                         high quality, architectural integrity, and secure implementation, and post implementation support activities.
                         </div>
                     </div>

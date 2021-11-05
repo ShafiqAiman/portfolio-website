@@ -108,7 +108,7 @@ nav a.nav-link{
 .AboutMe{
   background-color: white;
   min-height: 70vh;
-  padding-top: 10%;
+  padding-top: 100px;
   text-align: center;
   max-width: 70%;
   display: block;
@@ -121,7 +121,7 @@ nav a.nav-link{
 .Skills{
   background-color: white;
   min-height: 70vh;
-  padding-top: 10%;
+  padding-top: 100px;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -143,7 +143,7 @@ nav a.nav-link{
 /* ****************************  Projects.js ********************************** */
 
 .projects{
-  padding-top: 5%;
+  padding-top: 100px;
   background-color: #fbd864;
   min-height: 120vh;
   text-align: center;
@@ -186,7 +186,7 @@ nav a.nav-link{
 .WorkingExperience{
   background-color: white;
   min-height: 100vh;
-  padding-top: 10%;
+  padding-top: 100px;
   text-align: center;
   max-width: 60%;
   display: block;
@@ -524,7 +524,7 @@ header h1{
 .Achievements{
   background-color: #fbd864;
   min-height: 100vh;
-  padding-top: 5%;
+  padding-top: 100px;
   text-align: center;
   /* max-width: 60%; */
   display: block;
@@ -547,4 +547,52 @@ header h1{
 
 .achievementdetails{
   color: black;
+}
+
+.contacts{
+  background-color: white;
+  padding-top: 100px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.emailform{
+  padding: 5%;
+}
+
+.email{
+  width: 60%;
+}
+
+.message{
+  width:60%;
+}
+
+.contactbtn{
+  margin-top: 10%;
+        
+  background-color:#fbd864;
+  color: black;
+  height: 50px;
+  width: 120px;
+  border-radius: 9px;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  outline: none;
+}
+
+.contactoptions{
+  margin-top: 100px;
+  
+}
+
+.contactlogo{
+  max-height: 50px;
+  margin: 10px;
+}
+
+.copyright{
+  color: white;
 }
