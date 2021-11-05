@@ -5,7 +5,7 @@ const Skills = () => {
         <div id="skills" className="Skills">
             <h1 className="titles">Skills</h1><br />
             <div>
-                <h4>Programming Languages</h4>
+                <h3 className="skillsections">Programming Languages</h3>
                 <img className="planguages" src="https://logosvector.net/wp-content/uploads/2012/10/python-logo-vector.png"/>
                 <img className="planguages" src="https://www.import.io/wp-content/uploads/2012/04/java-logo-1.png"/>
                 <img className="planguages" src="https://img.icons8.com/color/452/c-programming.png"/>
@@ -16,18 +16,18 @@ const Skills = () => {
                 <img className="planguages" src="https://cdn.worldvectorlogo.com/logos/php-1.svg"/>
             </div><br /><br />
             <div>
-                <h4>Tools & Frameworks</h4>
+                <h3 className="skillsections">Tools & Frameworks</h3>
                 <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png"/>
                 <img className="planguages" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"/>
                 <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"/>
-                <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"/>
+                <img className="planguages" src="https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png"/>
                 <img className="planguages" src="https://cdn.iconscout.com/icon/free/png-512/django-2-282855.png"/>
                 <img className="planguages" src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png"/>
                 <img className="planguages" src="https://www.avrspot.com/wp-content/uploads/2018/06/Vuforia-Logo-OLx2a896.png"/>
             </div><br /><br />
 
             <div>
-                <h4>Others</h4>
+                <h3 className="skillsections">Others</h3>
                 <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png"/>
                 <img className="planguages" src="https://download.blender.org/branding/blender_logo_socket.png"/>
                 <img className="planguages" src="https://betanews.com/wp-content/uploads/2017/07/paint.net_.jpg"/>

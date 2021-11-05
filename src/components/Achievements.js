@@ -14,7 +14,7 @@ const Achievements = () => {
                         <div className="achievementpost">
                             <img src={Cipta} alt="First slide"/>
                             <br /><br /><br /><br /><br />
-                            <div class="carousel-caption">
+                            <div className="carousel-caption">
                                 <h4 className="achievementdetails">First Runner Up of CIPTA</h4>
                                 <p className="achievementdetails">2021</p>
                             </div>
@@ -26,7 +26,7 @@ const Achievements = () => {
                         <div className="achievementpost">
                             <img src={Indes} alt="First slide"/>
                             <br /><br /><br /><br /><br />
-                            <div class="carousel-caption">
+                            <div className="carousel-caption">
                                 <h4 className="achievementdetails">First Runner Up of INDES</h4>
                                 <p className="achievementdetails">2018</p>
                             </div>
@@ -37,7 +37,7 @@ const Achievements = () => {
                         <div className="achievementpost">
                             <img src={Nals} alt="First slide"/>
                             <br /><br /><br /><br /><br />
-                            <div class="carousel-caption">
+                            <div className="carousel-caption">
                                 <h4 className="achievementdetails">Top 20 Facilitators of NALSMY</h4>
                                 <p className="achievementdetails">2021</p>
                             </div>
