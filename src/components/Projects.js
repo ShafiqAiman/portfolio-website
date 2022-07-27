@@ -9,46 +9,58 @@ import UnimySpaceLogo from "../assets/UNIMY-SPACELogo.png"
 const Projects = () => {
 
     function projectdetails(){
-        alert("There is no details yet. Sorry!");
+        console.log("Test")
+        window.open()
     }
 
 
     return (
-        <div id="projects" className="projects container">
+        <div id="projects" className="projects">
             <h1 className="titles">Projects</h1>
             <div className="projectslist">
 
-                <Link to={"#"}>
+                <button className="project-link">
                     <div className="project animate__animated animate__bounce">
-                        <h3>Roomah</h3>
-                        <img className="projectthumbnail" src={RoomahLogo}/><br /><br />
-                        <h4 className='font-weight-bold'>Programming Languages</h4>
-                        <label>HTML, CSS, Javascript, Vue.js, Python, Django</label>
-                        <h4 className='font-weight-bold'>Database</h4>
-                        <label>PostgreSQL</label>
+                        
+                        <div>
+                            <h3>Roomah</h3>
+                            <img className="projectthumbnail" src={RoomahLogo}/><br /><br />
+                            <h4 className='font-weight-bold'>Programming Languages</h4>
+                            <label>HTML, CSS, Javascript, Vue.js, Python, Django</label>
+                            <h4 className='font-weight-bold'>Database</h4>
+                            <label>PostgreSQL</label>
+                        </div>
+                        
                     </div>
-
-                </Link>
+                </button>
                 
-
-                <div className="project animate__animated animate__bounce">
-                    <h3>WearMe</h3>
-                    <img className="projectthumbnail" src={WearMeLogo}/><br /><br />
-                    <h4 className='font-weight-bold'>Programming Languages</h4>
-                    <label>C#, Unity, Vuforia</label><br /><br />
-                    <h4 className='font-weight-bold'>Database</h4>
-                    <label>Vuforia Database</label>
-                    
-                </div>
-
-                <div className="project animate__animated animate__bounce">
-                    <h3>ShopSimple</h3>
-                    <img className="projectthumbnail" src={ShopSimpleLogo}/><br /><br />
-                    <h4 className='font-weight-bold'>Programming Languages</h4>
-                    <label>Java, XML, Android Studio</label><br /><br />
-                    <h4 className='font-weight-bold'>Database</h4>
-                    <label>Firebase</label>
-                </div>
+                
+                <button className="project-link" onClick={projectdetails}>
+                    <div className="project animate__animated animate__bounce">
+                        
+                        <div>
+                            <h3>WearMe</h3>
+                            <img className="projectthumbnail" src={WearMeLogo}/><br /><br />
+                            <h4 className='font-weight-bold'>Programming Languages</h4>
+                            <label>C#, Unity, Vuforia</label><br /><br />
+                            <h4 className='font-weight-bold'>Database</h4>
+                            <label>Vuforia Database</label>
+                        </div>
+                    </div>
+                </button>
+                <button className="project-link">
+                    <div className="project animate__animated animate__bounce">
+                        
+                        <div>
+                            <h3>ShopSimple</h3>
+                            <img className="projectthumbnail" src={ShopSimpleLogo}/><br /><br />
+                            <h4 className='font-weight-bold'>Programming Languages</h4>
+                            <label>Java, XML, Android Studio</label><br /><br />
+                            <h4 className='font-weight-bold'>Database</h4>
+                            <label>Firebase</label>
+                        </div>
+                    </div>
+                </button>
 
             </div>
         </div>
