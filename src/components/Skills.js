@@ -1,38 +1,177 @@
 import React from 'react'
 
+import Python from '../assets/python.png'
+import Java from '../assets/java.png'
+import CSharp from '../assets/csharp.png'
+import HTML from '../assets/html.png'
+import CSS from '../assets/css3.png'
+import Javascript from '../assets/javascript.png'
+import PHP from '../assets/php.png'
+
+import Reactjs from '../assets/react.png'
+import Vuejs from '../assets/vuejs.png'
+import Django from '../assets/djangoproject.png'
+import ASP from '../assets/asp.png'
+import Unity from '../assets/unity.png'
+import Android from '../assets/android-studio.png'
+import Vuforia from '../assets/vuforia.jpg'
+
+import PostgreSQL from '../assets/postgresql.png'
+import MySQL from '../assets/mysql.png'
+import MSSQL from '../assets/sql.png'
+import Firebase from '../assets/firebase.png'
+
+import Git from '../assets/git.png'
+import GitHub from '../assets/github.png'
+import GitLab from '../assets/gitlab.png'
+
+import AdobeXD from '../assets/adobe-xd.png'
+import Blender from '../assets/blender.png'
+import Canva from '../assets/canva.png'
+
 const Skills = () => {
     return (
-        <div id="skills" className="Skills">
+        <div id="skills" className="Skills container">
             <h1 className="titles">Skills</h1><br />
-            <div>
-                <h3 className="skillsections">Programming Languages</h3>
-                <img className="planguages" src="https://logosvector.net/wp-content/uploads/2012/10/python-logo-vector.png"/>
-                <img className="planguages" src="https://www.import.io/wp-content/uploads/2012/04/java-logo-1.png"/>
-                <img className="planguages" src="https://img.icons8.com/color/452/c-programming.png"/>
-                {/* <img className="planguages" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"/> */}
-                <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"/>
-                <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"/>
-                <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"/>
-                <img className="planguages" src="https://cdn.worldvectorlogo.com/logos/php-1.svg"/>
+            <h3 className="skillsections">Programming Languages</h3>
+            <div className='animate__animated animate__heartBeat animate__slower plsection p-4'>
+                <div className="plgroup">
+                    <img className="planguages" src={Python}/><br></br>
+                    <label>Python</label>
+                </div>
+
+                <div className="plgroup">
+                    <img className="planguages" src={Java}/><br></br>
+                    <label>Java</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={CSharp}/><br></br>
+                    <label>C#</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={HTML}/><br></br>
+                    <label>HTML</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={CSS}/><br></br>
+                    <label>CSS</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Javascript}/><br></br>
+                    <label>Javascript</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={PHP}/><br></br>
+                    <label>PHP</label>
+                </div>
+
             </div><br /><br />
-            <div>
-                <h3 className="skillsections">Tools & Frameworks</h3>
-                <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png"/>
-                <img className="planguages" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"/>
-                <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"/>
-                <img className="planguages" src="https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png"/>
-                <img className="planguages" src="https://cdn.iconscout.com/icon/free/png-512/django-2-282855.png"/>
-                <img className="planguages" src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png"/>
-                <img className="planguages" src="https://www.avrspot.com/wp-content/uploads/2018/06/Vuforia-Logo-OLx2a896.png"/>
+            <h3 className="skillsections">Frameworks</h3>
+            <div className='animate__animated animate__heartBeat animate__slower plsection p-4'>
+
+                <div>
+                    <img className="planguages" src={Reactjs}/><br></br>
+                    <label>React.js</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Vuejs}/><br></br>
+                    <label>Vue.js</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Django}/><br></br>
+                    <label>Django</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Unity}/><br></br>
+                    <label>Unity</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={ASP}/><br></br>
+                    <label>ASP.NET</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Android}/><br></br>
+                    <label>Android Studio</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Vuforia}/><br></br>
+                    <label>Vuforia</label>
+                </div>
+                
+            </div><br /><br />
+            <h3 className="skillsections">Databases</h3>
+            <div className='animate__animated animate__heartBeat animate__slower plsection p-4'>
+                <div>
+                    <img className="planguages" src={PostgreSQL}/><br></br>
+                    <label>PostgreSQL</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={MySQL}/><br></br>
+                    <label>MySQL</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={MSSQL}/><br></br>
+                    <label>MSSQL</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Firebase}/><br></br>
+                    <label>Firebase</label>
+                </div>
+                
             </div><br /><br />
 
-            <div>
-                <h3 className="skillsections">Others</h3>
-                <img className="planguages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png"/>
-                <img className="planguages" src="https://download.blender.org/branding/blender_logo_socket.png"/>
-                <img className="planguages" src="https://betanews.com/wp-content/uploads/2017/07/paint.net_.jpg"/>
-                <img className="planguages" src="https://cdn.goconqr.com/uploads/node/image/41537060/8e1e71e9-9e0b-49e5-af7e-9d4322a822b1.jpg"/>
-            </div>
+            <h3 className="skillsections">Version Tools</h3>
+            <div className='animate__animated animate__heartBeat animate__slower plsection p-4'>
+                <div>
+                    <img className="planguages" src={Git}/><br></br>
+                    <label>Git</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={GitHub}/><br></br>
+                    <label>GitHub</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={GitLab}/><br></br>
+                    <label>GitLab</label>
+                </div>
+                
+            </div><br /><br />
+
+            <h3 className="skillsections">Others</h3>
+            <div className='animate__animated animate__heartBeat animate__slower plsection p-4'>
+                <div>
+                    <img className="planguages" src={AdobeXD}/><br></br>
+                    <label>Adobe XD</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Blender}/><br></br>
+                    <label>Blender</label>
+                </div>
+
+                <div>
+                    <img className="planguages" src={Canva}/><br></br>
+                    <label>Canva</label>
+                </div>
+
+                
+            </div><br /><br />
 
         </div>
     )

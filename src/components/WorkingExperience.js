@@ -11,7 +11,7 @@ const WorkingExperience = () => {
             <ul className="timeline">
 
                 <li>
-                    <div className="direction-l">
+                    <div className="direction-l  animate__animated animate__fadeInLeft">
                     <div className="flag-wrapper">
                         <span className="hexa"></span>
                         <img className="companylogo" src={FujitsuLogo}/><br /><br />
@@ -29,7 +29,7 @@ const WorkingExperience = () => {
                 </li>
   
                 <li>
-                    <div className="direction-r">
+                    <div className="direction-r  animate__animated animate__fadeInRight">
                         <div className="flag-wrapper">
                             <span className="hexa"></span>
                             <img className="companylogo" src={PetronasLogo}/><br /><br />
@@ -48,7 +48,7 @@ const WorkingExperience = () => {
 
                 
                 <li>
-                    <div className="direction-l">
+                    <div className="direction-l   animate__animated animate__fadeInLeft">
                     <div className="flag-wrapper">
                         <span className="hexa"></span>
                         <img className="companylogo" src={HNLogo}/><br /><br />
@@ -67,7 +67,7 @@ const WorkingExperience = () => {
 
                 
                 <li>
-                    <div className="direction-r">
+                    <div className="direction-r animate__animated animate__fadeInRight">
                     <div className="flag-wrapper">
                         <span className="hexa"></span>
                         <img className="companylogo" src={NandosLogo}/><br /><br />

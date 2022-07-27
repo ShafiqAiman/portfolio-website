@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import 'animate.css';
 
 :root{
   --primary-white: #fff;
@@ -114,7 +115,7 @@ nav a.nav-link{
   display: block;
   margin: 0 auto;
   font-size: 2vw;
-  /* margin-bottom: 1%; */
+  padding-bottom: 2%;
 }
 
 /* ****************************  Skills.js ********************************** */
@@ -125,14 +126,18 @@ nav a.nav-link{
   text-align: center;
   display: block;
   margin: 0 auto;
-  font-size: 2vw;
   margin-bottom: 5%;
 }
 
+.plsection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .planguages{
-  max-width: 150px;
-  max-height: 100px;
-  margin: 20px;
+  width: 40%;
+  margin: 2%;
 }
 
 .skillsections{
@@ -144,7 +149,7 @@ nav a.nav-link{
 
 .projects{
   padding-top: 100px;
-  background-color: #fbd864;
+  /* background-color: #fbd864; */
   min-height: 120vh;
   text-align: center;
 }
@@ -161,8 +166,8 @@ nav a.nav-link{
 .project{
   background-color: white;
   padding: 20px;
-  width: 400px;
-  height: 250px;
+  width: 300px;
+  height: 400px;
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -180,6 +185,9 @@ nav a.nav-link{
   height: 100px;
   
 }
+
+
+
 
 /* ****************************  WorkingExperience.js ********************************** */
 
