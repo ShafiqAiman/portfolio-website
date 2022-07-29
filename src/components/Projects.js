@@ -8,9 +8,9 @@ import UnimySpaceLogo from "../assets/UNIMY-SPACELogo.png"
 
 const Projects = () => {
 
-    function projectdetails(){
+    function projectdetails(event, url){
         console.log("Test")
-        window.open()
+        window.open(url)
     }
 
 
@@ -19,7 +19,7 @@ const Projects = () => {
             <h1 className="titles">Projects</h1>
             <div className="projectslist">
 
-                <button className="project-link">
+                {/* <button className="project-link">
                     <div className="project animate__animated animate__bounce">
                         
                         <div>
@@ -32,10 +32,10 @@ const Projects = () => {
                         </div>
                         
                     </div>
-                </button>
+                </button> */}
                 
                 
-                <button className="project-link" onClick={projectdetails}>
+                <button className="project-link" onClick={event => projectdetails(event, 'https://github.com/ShafiqAiman/WearMe')}>
                     <div className="project animate__animated animate__bounce">
                         
                         <div>
@@ -48,7 +48,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </button>
-                <button className="project-link">
+                <button className="project-link" onClick={event => projectdetails(event, 'https://github.com/ShafiqAiman/ShopSimple')}>
                     <div className="project animate__animated animate__bounce">
                         
                         <div>

@@ -4,16 +4,16 @@ import email from '../assets/EmailLogo.png'
 
 const Contacts = () => {
     return (
-        <div id="contacts" className="contacts">
+        <div id="contacts" className="container contacts">
             <h1 className="titles">Contacts</h1>
             <div className="emailform">
                 <form action="https://formsubmit.co/c5d8f208d7f878acddf1be39d99581e3" method="POST">
-                    <div class="form-group">
+                    <div class="form-group  animate__animated animate__jackInTheBox">
                         <label>Your Email</label><br />
                         <input type="email" className="form-control" name="email" required></input>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group  animate__animated animate__jackInTheBox">
                         <label>Your Message</label><br />
                         <textarea type="text" className="form-control" name="name" required></textarea>
                     </div>
