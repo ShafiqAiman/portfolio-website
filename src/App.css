@@ -532,8 +532,9 @@ header h1{
 
 /* ****************************  Achievements.js ********************************** */
 
+
 .Achievements{
-  background-color: #fbd864;
+  /* background-color: #fbd864; */
   min-height: 100vh;
   padding-top: 100px;
   text-align: center;
@@ -542,23 +543,22 @@ header h1{
   margin: 0 auto;
 }
 
+.achievementphoto{
+  max-height: 650px;
+  object-fit: cover;
 
-.carousel-inner > .carousel-item > img {
+}
+
+.caption{
+  background-color: rgba(0,0,0,0.9);
+}
+
+
+/* .carousel-inner > .carousel-item > img {
   margin: 0 auto;
-}
+} */
 
-.achievementpost{
-  background-color: white;
-  padding-top: 50px;
-  max-width: 500px;
-  height: 60vh;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.achievementdetails{
-  color: black;
-}
+/* ****************************  Contacts.js ********************************** */
 
 .contacts{
   background-color: white;
