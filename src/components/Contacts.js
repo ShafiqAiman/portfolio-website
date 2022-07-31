@@ -17,9 +17,7 @@ const Contacts = () => {
                         <label>Your Message</label><br />
                         <textarea type="text" className="form-control" name="name" required></textarea>
                     </div>
-                    
-                    
-                    
+
                     <button type="submit" className="contactbtn">
                         <span className="SubmitText">Send</span>
                     </button>
