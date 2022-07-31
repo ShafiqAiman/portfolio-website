@@ -2,9 +2,10 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 
 import RoomahLogo from "../assets/RoomahLogo.png"
+import iTuitionLogo from "../assets/iTuitionLogo.png"
 import WearMeLogo from "../assets/WearMeLogo.png"
 import ShopSimpleLogo from "../assets/ShopSimpleLogo.jpeg"
-import UnimySpaceLogo from "../assets/UNIMY-SPACELogo.png"
+
 
 const Projects = () => {
 
@@ -34,6 +35,20 @@ const Projects = () => {
                     </div>
                 </button> */}
                 
+                
+                <button className="project-link" onClick={event => projectdetails(event, 'https://github.com/ShafiqAiman/iTuition')}>
+                    <div className="project animate__animated animate__bounce">
+                        
+                        <div>
+                            <h3>iTuition</h3>
+                            <img className="projectthumbnail" src={iTuitionLogo}/><br /><br />
+                            <h4 className='font-weight-bold'>Programming Languages</h4>
+                            <label>HTML, CSS, Javascript, C#, ASP.NET</label><br /><br />
+                            <h4 className='font-weight-bold'>Database</h4>
+                            <label>MSSQL</label>
+                        </div>
+                    </div>
+                </button>
                 
                 <button className="project-link" onClick={event => projectdetails(event, 'https://github.com/ShafiqAiman/WearMe')}>
                     <div className="project animate__animated animate__bounce">
